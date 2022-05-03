@@ -3,12 +3,12 @@ entries:
   dashboard-ingress:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-03T21:35:31.336433+08:00"
+    created: "2022-05-03T21:41:08.56431+08:00"
     description: A Helm chart for MicroK8s Dashboard Ingress
-    digest: 9def5617a87acf440f0dd72211c0fc51b6cf330d086393e86d1e0a31a0eed418
-    name: dashboard-ingress-helm
+    digest: 37debb1fb29e6ff4ec4cb70e89ccfc51b6ae9429b0baa843b3e8bf5485e65b2b
+    name: dashboard-ingress
     type: application
     urls:
-    - https://mecode4food.github.io/home-cluster-helm/dashboard-ingress/dashboard-ingress-0.1.0.tgz
+    - https://mecode4food.github.io/home-cluster-helm/dashboard-ingress-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-03T21:35:31.335367+08:00"
+generated: "2022-05-03T21:41:08.563902+08:00"
