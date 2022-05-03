@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Ingress
+metadata:
+  name: {{ .Release.Name }}
+spec:
+  rules:
+  - host: dashboard.com
+    http:
+      paths:
+      - backend:
+          service:
+            name: kubernetes-dashboard
+            port: 
+              number: 80
